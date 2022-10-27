@@ -1,1 +1,6 @@
-"Will be updating what all I added to the repository of array folder"!
+1.Displaying the array
+2.Linear search
+3.Bineary search
+4.Swapping the array
+5.Selection Sort
+6.bubble sort
