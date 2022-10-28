@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int binarysearch(int arr[],int size,int key){
+int binarysearch(int arr[],int size,int key){            //creating a function for bubble sort
     int start =0;
     int end=size-1;
     int mid=(start+end)/2;
@@ -16,9 +16,9 @@ int binarysearch(int arr[],int size,int key){
         {
             start=mid+1;
         }
-        mid=(start+end)/2;
+        mid=(start+end)/2;                      //changing the value of mid after the conditions applied
         }
-        return -1;
+        return -1;                             //if element is not found then return -1
 }
 int main(){
     int even[6]={1,2,3,4,5,6};    //taking a even array
